@@ -1,10 +1,9 @@
 {
   "name": "coingecko",
   "version": "1.0.0",
-  "description": "Fetch crypto data",
+  "description": "Fetch crypto prices from CoinGecko",
   "main": "api/coins.js",
-  "type": "module",
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^2.6.7"
   }
 }
