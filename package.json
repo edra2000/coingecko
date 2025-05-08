@@ -1,0 +1,10 @@
+{
+  "name": "coingecko",
+  "version": "1.0.0",
+  "description": "Fetch crypto data",
+  "main": "api/coins.js",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
