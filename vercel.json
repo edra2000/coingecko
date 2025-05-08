@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/coins.js", "use": "@vercel/node" }],
+  "routes": [
+    {
+      "src": "/api/coins",
+      "dest": "/api/coins.js"
+    }
+  ]
+}
